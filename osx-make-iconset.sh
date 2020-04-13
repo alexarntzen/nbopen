@@ -1,10 +1,6 @@
 #!/bin/bash
 set -e
 
-echo "generating .icns file for mac app..."
-echo "NOTE: this will produce one warning message, because there is no"
-echo "      1024x1024 icon that could be used to for the 'retina' 512x512 icon"
-
 iconsetdir=nbopen.iconset
 mkdir -p ${iconsetdir}
 for size in 16 32 128 256 512; do
