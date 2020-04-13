@@ -1,7 +1,7 @@
 #!/bin/bash
-set -e;
-which python;
-./osx-make-iconset.sh;
+set -e
+which python3
+./osx-make-iconset.sh
 
 python3 py2app_setup.py install
 python3 py2app_setup.py py2app
